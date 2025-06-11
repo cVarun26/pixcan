@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Lambda build artifacts
+lambda.zip
+lambda/*.dist-info/
+lambda/bin/
+lambda/certifi/
+lambda/charset_normalizer/
+lambda/idna/
+lambda/requests/
+lambda/requests_toolbelt/
+lambda/urllib3/
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
